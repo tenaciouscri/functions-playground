@@ -304,3 +304,16 @@ def master_yoda(text):
 
 print(master_yoda("I am home"))
 print(master_yoda("We are ready"))
+
+# Almost there: given an integer n, return True if
+# n is within 10 of either 100 or 200.
+
+def almost_there(n):
+    # abs() = absolute number
+    return (abs(100 - n) <= 10) or (abs(200 - n) <= n)
+
+print(almost_there(104))
+print(almost_there(150))
+print(almost_there(209))
+
+# ----------------------------------------------------
